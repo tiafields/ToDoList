@@ -35,7 +35,11 @@
     border-radius: 30px;
     padding-left: 20px;
     margin-bottom: 25px;
+    color: #634e54;
 }
+input::placeholder{
+    color: #634e54;
+  }
 input{
     flex: 1;
     border: none;
@@ -45,6 +49,8 @@ input{
     font-size: 17px;
     color:#59474c;
 }
+
+
 button{
     border: none;
     outline: none;
