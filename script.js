@@ -22,3 +22,12 @@ inputBox.addEventListener("keyup", function(event) {
         addTask();
     }
 });
+/*Function for marking task on or off the list */
+listContainter.addEventListener("click", function(e){
+    if(e.target.tagName === "LI"){
+        e.target.classList.toggle("checked");
+    }
+    else if(e.target.tagName === "SPAN"){
+        e.target.parentElement.remove();
+    }
+},false);
