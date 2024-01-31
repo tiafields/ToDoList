@@ -8,7 +8,7 @@
     width: 100%;
     min-height: 100vh;
     background: linear-gradient(135deg, #ffccdc, #ffffff);/* , #4e085f); */
-    padding: 10px;
+    padding: 30px;
     
 }
 
@@ -48,6 +48,7 @@ input{
     padding: 10px;
     font-size: 17px;
     color:#59474c;
+    width: 80px;
 }
 
 
@@ -102,4 +103,9 @@ ul li span{
 }
 ul li span:hover{
     background: #ccf0ff;
+}
+@media screen and (min-width: 1280px) {
+    .container {
+        padding: 10px;
+    }
 }
